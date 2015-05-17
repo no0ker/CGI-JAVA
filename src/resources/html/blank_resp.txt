@@ -1,0 +1,1 @@
+<br><input type="radio" name="answer_{0}" value="{1}">{2}

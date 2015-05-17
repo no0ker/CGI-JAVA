@@ -1,0 +1,28 @@
+Content-Type: text/html
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html">
+        <title>cgi-lab</title>
+        <link rel="stylesheet" type="text/css" href="/../1.css">
+    </head>
+    <body>
+
+       <div class = "border heavy main">
+       <div class = "border light">
+       Ваш предыдущий результат:<br>
+       {1}
+       </div>
+
+       <form action="javaCGI.jar" method="post">
+
+      {0}
+
+       <div class = "border light right">
+       <input type = "submit" value = "отправить">
+       </div>
+       </form>
+
+
+    </body>
+</html>
